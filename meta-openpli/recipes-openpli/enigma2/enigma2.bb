@@ -192,7 +192,7 @@ PKGV = "${PYTHON_BASEVERSION}+git${GITPKGV}"
 ENIGMA2_BRANCH ?= "develop"
 GITHUB_URI ?= "git://github.com"
 
-SRC_URI = "${GITHUB_URI}/fairbird/enigma2-dreambox.git;branch=${ENIGMA2_BRANCH};protocol=https"
+SRC_URI = "${GITHUB_URI}/blinkosm10/enigma2-dreambox.git;branch=${ENIGMA2_BRANCH};protocol=https"
 
 LDFLAGS:prepend = " -lxml2 "
 FILES:${PN} += "${datadir}/keymaps"
