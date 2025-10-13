@@ -4,16 +4,32 @@ IMAGE_LINGUAS = ""
 IMAGE_FEATURES += "package-management"
 
 ENIGMA2_PLUGINS = " \
+	enigma2-plugin-extensions-audiosync \
+	enigma2-plugin-extensions-autobackup \
+	enigma2-plugin-extensions-bitrate \
+	enigma2-plugin-extensions-cdinfo \
+	enigma2-plugin-extensions-cutlisteditor \
+	enigma2-plugin-extensions-dvdplayer \
 	enigma2-plugin-extensions-epgimport \
 	enigma2-plugin-extensions-filecommander \
 	enigma2-plugin-extensions-graphmultiepg \
+	enigma2-plugin-extensions-mediaplayer \
 	enigma2-plugin-extensions-mediascanner \
+	enigma2-plugin-extensions-moviecut \
+	enigma2-plugin-extensions-netcaster \
 	enigma2-plugin-extensions-openwebif \
+	enigma2-plugin-extensions-pictureplayer \
+	enigma2-plugin-extensions-internetspeedtest \
 	enigma2-plugin-extensions-systemtools \
+	enigma2-plugin-extensions-tmbd \
+	enigma2-plugin-extensions-youtube \
 	\
 	enigma2-plugin-softcams-ncam \
 	\
-
+	enigma2-plugin-systemplugins-blindscan \
+	enigma2-plugin-systemplugins-cablescan \
+	enigma2-plugin-systemplugins-commoninterfaceassignment \
+	enigma2-plugin-systemplugins-fastscan \
 	enigma2-plugin-systemplugins-hdmicec \
 	enigma2-plugin-systemplugins-hotplug \
 	enigma2-plugin-systemplugins-networkwizard \
