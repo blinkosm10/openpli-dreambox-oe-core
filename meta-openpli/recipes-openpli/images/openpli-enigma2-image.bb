@@ -4,7 +4,6 @@ IMAGE_LINGUAS = ""
 IMAGE_FEATURES += "package-management"
 
 ENIGMA2_PLUGINS = " \
-	
 	enigma2-plugin-extensions-epgimport \
 	enigma2-plugin-extensions-filecommander \
 	enigma2-plugin-extensions-graphmultiepg \
